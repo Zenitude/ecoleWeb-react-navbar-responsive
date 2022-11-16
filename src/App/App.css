@@ -1,4 +1,28 @@
 .App {
   width: 100%;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  place-content: center center;
 }
+
+.App h1
+{
+  padding: 50px 15px 15px;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.App p
+{
+  padding: 0 15px 30px;
+  text-align: justify;
+  font-size: 1.5rem;
+}
+
+.App p::first-letter
+{
+  font-weight: bold;
+  font-size: 4rem;
+}
+
